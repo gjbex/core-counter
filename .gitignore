@@ -26,6 +26,7 @@
 *.swp
 
 autom4te.cache/output.*
+autom4te.cache/traces.*
 Makefile
 config.log
 config.status
