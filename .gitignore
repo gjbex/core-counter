@@ -25,11 +25,12 @@
 # vim swap files
 *.swp
 
-autom4te.cache/output.*
-autom4te.cache/traces.*
+autom4te.cache/
 Makefile
+Makefile.in
 config.log
 config.status
 src/.deps/
 src/Makefile
+src/Makefile.in
 src/core-counter
