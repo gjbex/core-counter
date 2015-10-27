@@ -20,6 +20,12 @@ $ core-counter -num_threads
 ```
 
 
+Requirements
+------------
+A C compiler that supports OpenMP 2.x or better, so GCC 4.x or more recent
+is fine.
+
+
 Build instructions
 ------------------
 Simply use the standard mantra:
