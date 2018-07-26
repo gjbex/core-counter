@@ -1,10 +1,9 @@
-core-counter
-============
+# core-counter
 
 Check available cores and OMP threads
 
-Usage
------
+## Usage
+
 Run `core-counter` as follows to retrieve the number of avaiable cores
 (or hyperthreads, if enabled):
 ```bash
@@ -20,14 +19,14 @@ $ core-counter -num_threads
 ```
 
 
-Requirements
-------------
+## Requirements
+
 A C compiler that supports OpenMP 2.x or better, so GCC 4.x or more recent
 is fine.
 
 
-Build instructions
-------------------
+## Build instructions
+
 Simply use the standard mantra:
 ```bash
 $ ./configure
@@ -38,13 +37,15 @@ $ make install
 Note that the application is statically built to minimize dependencies.
 
 
-Changes
--------
+## Changes
+
+Release 1.1.1
+  * Fix for build process (thanks Sam Moors for poining it out)
 
 Release 1.1
-* To minimize dependencies, a static build is done.
-* Clean up of autotools artefacts in repository
-* Extended README with some documentation
+  * To minimize dependencies, a static build is done.
+  * Clean up of autotools artefacts in repository
+  * Extended README with some documentation
 
 Release 1.0
-* Initial release
+  * Initial release
