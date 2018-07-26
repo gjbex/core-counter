@@ -1,4 +1,4 @@
-AC_INIT([core-counter], [1.1], [geertjan.bex@uhasselt.be])
+AC_INIT([core-counter], [1.1.1], [geertjan.bex@uhasselt.be])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign tar-pax])
 AC_CHECK_HEADERS([err.h])
 AC_CHECK_HEADERS([stdlib.h])
